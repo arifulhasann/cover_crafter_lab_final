@@ -40,7 +40,7 @@ class _InfoFillUpScreenState extends State<InfoFillUpScreen> {
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Generate Cover Page"),
+          title: const Text("Generate Cover Pages"),
           actions: const [ToggleThemeButton()],
         ),
         drawer: const AppDrawer(),
